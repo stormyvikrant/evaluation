@@ -1,0 +1,20 @@
+
+#container{
+display: flex;
+height:500px
+}
+#sidebar{
+flex: 2;
+border: 1px solid black;
+grid: flex;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+}
+#main{
+flex: 0;
+border: 1px solid black;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
